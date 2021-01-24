@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AboutActivity"
+    android:background="@color/bgcolor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/damel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="   Damelia   "
+            android:textSize="35sp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/bgcolor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text=" 1803421013"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/antic"
+            android:drawableLeft="@drawable/ic_baseline_school_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="   damelia.te18@mhsw.pnj.ac.id"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/antic"
+            android:drawableLeft="@drawable/ic_baseline_email_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" 0878xxxxxxxx"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/antic"
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" Cerdas Bersama Damelia"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/antic"
+            android:drawableLeft="@drawable/ic_baseline_play_circle_filled_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" cerdasbersamadamelia.blogspot.com"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/antic"
+            android:layout_marginBottom="50dp"
+            android:drawableLeft="@drawable/ic_baseline_web_24" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/lusi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="   Lusi Damayanti   "
+            android:textSize="35sp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/bgcolor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text=" 1803421021"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/antic"
+            android:drawableLeft="@drawable/ic_baseline_school_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" lusi.damayanti.te18@mhsw.pnj.ac.id"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/antic"
+            android:drawableLeft="@drawable/ic_baseline_email_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" 0877xxxxxxxx"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/antic"
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" Lusi Damayanti"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/antic"
+            android:drawableLeft="@drawable/ic_baseline_play_circle_filled_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" lusidmynti.blogspot.com"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/antic"
+            android:layout_marginBottom="50dp"
+            android:drawableLeft="@drawable/ic_baseline_web_24" />
+
+    </LinearLayout>
+
+</ScrollView>
